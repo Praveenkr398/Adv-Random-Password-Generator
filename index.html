@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<body>
+    <!-- Heading of Page -->
+    <h2>Generate a <br> <span>Random Password</span></h2>
+
+
+    <div class="container">
+
+        <!-- Input box -->
+        <div class="passwordBox">
+            <input type="text" id="password" placeholder="Your Password" readonly>
+            <span id="copyIcon" class="material-symbols-sharp">
+                copy_all
+            </span>
+        </div>
+
+
+        <!-- range of password -->
+        <div class="lengthRow">
+            <p>Password Length </p>
+            <span id="sliderValue">6</span>
+        </div>
+        <input type="range" id="lengthSlider" min="6" max="20" value="6">
+
+
+        <!-- properties of password -->
+        <!-- Upper Case Letters -->
+        <div class="row">
+            <span class="material-symbols-sharp checkbox">
+                radio_button_unchecked
+            </span>
+            <label for="uppercase" class="includeLabel">Include Uppercase Letters (A-Z)</label>
+            <input type="checkbox" id="uppercase" class="checkBtn">
+        </div>
+
+        <!-- Lower Case Letters -->
+        <div class="row">
+            <span class="material-symbols-sharp checkbox">
+                radio_button_unchecked
+            </span>
+            <label for="lowercase" class="includeLabel">Include Lowercase Letters (a-z)</label>
+            <input type="checkbox" id="lowercase" class="checkBtn">
+        </div>
+
+        <!-- Numbers-->
+        <div class="row">
+            <span class="material-symbols-sharp checkbox">
+                radio_button_unchecked
+            </span>
+            <label for="numbers" class="includeLabel">Include Numbers (0-9)</label>
+            <input type="checkbox" id="numbers" class="checkBtn">
+        </div>
+
+        <!-- Symbols -->
+        <div class="row">
+            <span class="material-symbols-sharp checkbox">
+                radio_button_unchecked
+            </span>
+            <label for="symbols" class="includeLabel">Include Symbols (!@#$%^&*)</label>
+            <input type="checkbox" id="symbols" class="checkBtn">
+        </div>
+
+        <!-- Button -->
+        <div class="buttons">
+            <button type="button" id="generateBtn">
+                <span class="material-symbols-sharp">
+                    bolt
+                </span>
+                Generate Password
+            </button>
+
+            <div id="reset">
+                <span class="material-symbols-sharp">
+                    delete
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
