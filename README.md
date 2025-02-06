@@ -3,6 +3,8 @@
 ## 🔑 Random Password Generator  
 **A simple and secure random password generator built with HTML, CSS, and JavaScript.**  
 
+View live: https://praveenkr398.github.io/Adv-Random-Password-Generator/
+
 ### 🚀 Features  
 ✔️ Generate strong, random passwords instantly  
 ✔️ Customize password length & character types (uppercase, lowercase, numbers, symbols)  
