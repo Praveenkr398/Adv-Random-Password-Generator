@@ -1,26 +1,34 @@
-# Adv-Random-Password-Generator
+Mini Project:  Advance Random Password Generator using HTML CSS JavaScript | Web2Code
 
-## 🔑 Random Password Generator  
-**A simple and secure random password generator built with HTML, CSS, and JavaScript.**  
+🚀 Overview : https://praveenkr398.github.io/Adv-Random-Password-Generator/
 
-View live: https://praveenkr398.github.io/Adv-Random-Password-Generator/
+Code: https://github.com/Praveenkr398/Adv-Random-Password-Generator
 
-### 🚀 Features  
-✔️ Generate strong, random passwords instantly  
-✔️ Customize password length & character types (uppercase, lowercase, numbers, symbols)  
-✔️ Copy passwords to clipboard with one click  
-✔️ User-friendly & responsive design  
 
-### 🛠️ Technologies Used  
-🔹 **HTML** – Structure  
-🔹 **CSS** – Styling & animations  
-🔹 **JavaScript** – Logic & interactivity  
+The Random Password Generator is a lightweight web application built with HTML, CSS, and JavaScript. It allows users to generate secure passwords with a customizable length and character set. The application also includes copy and delete functions for better usability.
 
-### 🎯 Usage  
-Simply open the webpage, adjust your preferences, and generate secure passwords effortlessly!  
+✨ Features
+✔️ Default Password Length: Generates a password with a default length of 6 characters
+✔️ Customizable Length: Users can modify the password length as needed
+✔️ Character Selection: Users can choose whether to include symbols, numbers, or letters
+✔️ Copy Password: One-click copy-to-clipboard functionality for quick access
+✔️ Delete Button: Instantly clears the generated password
+✔️ Minimal & Responsive UI: Works smoothly across all devices
 
-🔗 **Live Demo:** https://github.com/Praveenkr398/Adv-Random-Password-Generator.git
-⭐ **Star this repo if you find it useful!** 🚀
+🛠️ How It Works
+1️⃣ Choose the desired password length
+2️⃣ Select character types (letters, numbers, symbols)
+3️⃣ Click "Generate Password" to create a strong password
+4️⃣ Click "Copy" to copy the password to the clipboard
+5️⃣ Click "Delete" to clear the generated password
 
-![image](https://github.com/user-attachments/assets/98d01a75-9ac1-4a53-88fe-19356511b40c)
+💻 Technologies Used
+🔹 HTML → Structure & Layout
+🔹 CSS → Styling & Responsive Design
+🔹 JavaScript → Logic for Password Generation, Copy, and Delete Functions
 
+https://youtu.be/GyxCZY5wBdk
+
+<a href="https://www.youtube.com/watch?v=GyxCZY5wBdk" target="_blank">
+  <img src="https://img.youtube.com/vi/GyxCZY5wBdk/0.jpg" alt="Watch the video" width="600"/>
+</a>
